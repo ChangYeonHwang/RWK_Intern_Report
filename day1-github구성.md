@@ -30,7 +30,6 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ``` 
-
 4.  윈도우를 재부팅한다
 
 5. Microsoft Store에서 Ubuntu를 검색, 설치해준다
