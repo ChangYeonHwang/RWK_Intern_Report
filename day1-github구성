@@ -37,7 +37,8 @@ WSL = Windows Subsystem for Linux
     
     업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
     
-     wsl -l -v
+        wsl -l -v
+        
  
  
  📎참고 링크 ; <https://dos-soles.tistory.com/24>
