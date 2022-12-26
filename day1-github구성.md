@@ -31,23 +31,25 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ``` 
-https://github.com/ChangYeonHwang/RWK_Intern_Report/issues/1#issue-1510997372
+![img for wsl2 installation](https://user-images.githubusercontent.com/87057782/209558072-3b906e79-37bd-4d30-9eac-e19d8a63387d.png)
 
 4.  윈도우를 재부팅한다
 
 5. Microsoft Store에서 Ubuntu를 검색, 설치해준다
 
+6. 아래의 그림 같은 화면이 나오면 Username과 Password를 설정해준다
+
 ![Ubuntu installation](https://user-images.githubusercontent.com/87057782/209558093-ee34cf70-2fe9-4a9e-87ca-69814518f32f.png)
 
 
-6. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
+7. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
 
 ```
 wsl --set-default-version 2
 wsl --set-version Ubuntu 2
 ```
 
-   업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
+8. 업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
 
 ```
 wsl -l -v
