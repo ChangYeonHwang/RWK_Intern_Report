@@ -7,7 +7,7 @@ Github Account & Repository
 
 📧Github_Account_Email ; <hcy_@naver.com>
 
-📂Github_Repository ; <>
+📂Github_Repository ; <https://github.com/ChangYeonHwang/RWK_Intern_Report>
 
 
 WSL을 이용한 Linux 환경 구성 방법
