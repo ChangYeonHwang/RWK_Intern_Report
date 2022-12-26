@@ -43,14 +43,6 @@ wsl --set-version Ubuntu 2
 ```
 wsl -l -v
 ```
-        
- ```java
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
-```
  
  📎참고 링크 ; <https://dos-soles.tistory.com/24>
 
