@@ -1,12 +1,12 @@
 #Day 1 - Github 구성
 ---
 RedWoodK 인턴 과제
-
+---
 ##Github Account & Repository
 
 📧Github_Account_Email ; <hcy_@naver.com>
 📂Github_Repository ; <>
-
+---
 ##WSL을 이용한 Linux 환경 구성 방법
 
 WSL = Windows Subsystem for Linux
@@ -31,10 +31,12 @@ WSL = Windows Subsystem for Linux
  이와 같은 작업을 마쳤으면, 다운 받은 WSL을 Version 2로 변경해주기 위한 작업이 필요하다
  
  6. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
+ 
      wsl --set-default-version 2
      wsl --set-version Ubuntu 2
     
     업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
+    
      wsl -l -v
  
  
