@@ -37,7 +37,8 @@ https://github.com/ChangYeonHwang/RWK_Intern_Report/issues/1#issue-1510997372
 
 5. Microsoft Store에서 Ubuntu를 검색, 설치해준다
 
-https://github.com/ChangYeonHwang/RWK_Intern_Report/issues/2#issue-1510997586
+![Ubuntu installation](https://user-images.githubusercontent.com/87057782/209558093-ee34cf70-2fe9-4a9e-87ca-69814518f32f.png)
+
 
 6. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
 
