@@ -34,7 +34,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
     Ubuntu는 리눅스의 배포판 소프트웨어 중 하나로, 무료일 뿐 아니라 편의성도 뛰어나 가장 많은 유저들이 사용하는 소프트웨어이다
     다운로드가 완료됐다면 아이디와 패스워드를 설정해준다
  
- 이와 같은 작업을 마쳤으면, 다운 받은 WSL을 Version 2로 변경해주기 위한 작업이 필요하다
+    이와 같은 작업을 마쳤으면, 다운 받은 WSL을 Version 2로 변경해주기 위한 작업이 필요하다
  
  6. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
 
@@ -43,7 +43,7 @@ wsl --set-default-version 2
 wsl --set-version Ubuntu 2
 ```
 
-    업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
+   업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
 
 ```
 wsl -l -v
