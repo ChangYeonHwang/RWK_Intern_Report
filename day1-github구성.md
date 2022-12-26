@@ -3,14 +3,14 @@ RedWoodK 인턴 과제
 ---
 
 Github Account & Repository
-
+---
 
 📧Github_Account_Email ; <hcy_@naver.com>
 📂Github_Repository ; <>
----
+
 
 WSL을 이용한 Linux 환경 구성 방법
-
+---
 WSL = Windows Subsystem for Linux
 리눅스를 위한 윈도우의 서브시스템으로서, 윈도우에서 리눅스를 구현할 수 있게 도와주는 툴로 현재 WSL2가 릴리스 되어 사용된다
 
