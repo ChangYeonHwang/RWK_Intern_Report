@@ -17,6 +17,7 @@ WSL = Windows Subsystem for Linux
 💿WSL 설치 방법
 
 1. Microsoft 10 2004 Update 확인
+
 WSL2는 마이크로소프트에서 정식으로 릴리스한 툴이기 때문에 윈도우의 특정 버젼 이상부터 지원이 된다
     
 2. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL을 활성화한다
