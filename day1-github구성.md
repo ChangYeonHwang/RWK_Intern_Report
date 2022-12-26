@@ -31,9 +31,13 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ``` 
+https://github.com/ChangYeonHwang/RWK_Intern_Report/issues/1#issue-1510997372
+
 4.  윈도우를 재부팅한다
 
 5. Microsoft Store에서 Ubuntu를 검색, 설치해준다
+
+https://github.com/ChangYeonHwang/RWK_Intern_Report/issues/2#issue-1510997586
 
 6. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
 
