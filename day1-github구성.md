@@ -32,13 +32,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ``` 
 
 4.  윈도우를 재부팅한다
-
 5. Microsoft Store에서 Ubuntu를 검색, 설치해준다
-    Ubuntu는 리눅스의 배포판 소프트웨어 중 하나로, 무료일 뿐 아니라 편의성도 뛰어나 가장 많은 유저들이 사용하는 소프트웨어이다
-    다운로드가 완료됐다면 아이디와 패스워드를 설정해준다
- 
-    이와 같은 작업을 마쳤으면, 다운 받은 WSL을 Version 2로 변경해주기 위한 작업이 필요하다
- 
 6. Windows Powershell을 관리자 권한으로 실행한 후, 다음 명령어를 입력하여 WSL2로 업그레이드 해준다
 
 ```
