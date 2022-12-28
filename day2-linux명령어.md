@@ -33,47 +33,63 @@ Linux command를 실습하고 각각의 기능에 대해 보고서를 제출하�
 💻명령어 설명 및 실습코드 예시
 ---
 
-🔎cd
+🔎cd와 관련된 명령어
 
 ```
-cd <Directory Name> // 가고자 하는 디렉토리로 이동
-cd. //현재 디렉토리 확인
-cd.. //상위 디렉토리로 이동
-cd / //root, 최상위 디렉토리로 이동
-cd $ 변수 이름 //변수 저장된 경로로 이동
-cd ~ //사용자 디렉토리로 이동
-cd $Home //사용자 디렉토리로 이동
-cd //사용자 디렉토리로 이동
-cd ~계정 이름 //입력한 사용자의 home 디렉토리로 이동
-cd- // 이전 경로로 이동
+cd <Directory Name>     //가고자 하는 디렉토리로 이동
+cd.                     //현재 디렉토리 확인
+cd..                    //상위 디렉토리로 이동
+cd /                    //root, 최상위 디렉토리로 이동
+cd $ 변수 이름          //변수 저장된 경로로 이동
+cd ~                   //사용자 디렉토리로 이동
+cd $Home               //사용자 디렉토리로 이동
+cd                     //사용자 디렉토리로 이동
+cd ~계정 이름           //입력한 사용자의 home 디렉토리로 이동
+cd-                    // 이전 경로로 이동
 ```
 
 ⌛cd 실습 코드 예시
 
 ```
-**hcy12356@DESKTOP-A7B9I01:~$**
-**_cd RedwoodK_**
-**_cd ._**
+# hcy12356@DESKTOP-A7B9I01:~$
+cd RedwoodK
+cd .
 //RedwoodK 디렉토리로 이동 및 결과 확인
 
-**hcy12356@DESKTOP-A7B9I01:~/RedwoodK$**
-**_cd practice_**
-**_cd ._**
+# hcy12356@DESKTOP-A7B9I01:~/RedwoodK$
+cd practice
+cd .
 //RedwoodK의 하위 디렉토리인 practice로 이동 및 결과 확인
 
-**hcy12356@DESKTOP-A7B9I01:~/RedwoodK/practice$**
-**_cd .._**
-**_cd ._**
+# hcy12356@DESKTOP-A7B9I01:~/RedwoodK/practice$
+cd ..
+cd .
 //상위 디렉토리인 RedwoodK로 이동 및 결과 확인
 
-**hcy12356@DESKTOP-A7B9I01:~/RedwoodK$**
+# hcy12356@DESKTOP-A7B9I01:~/RedwoodK$
 ```
 
-🔎ls
+🔎ls와 관련된 자주 사용되는 명령어
 
 ```
+ls //현재 디렉토리에 속한 파일 및 디렉토리를 출력해준다
+# day1-github구성.md  day2-linux명령어.md
 
+ls -a //숨김 파일, 및 디렉토리까지 포함한 모든 파일 형식을 출력 (all)
+ls -h //사용자가 보기 좋은 형태로 각 파일들의 용량들을 단위로 표시 (human)
+ls -l //리스트가 나열될 때 자세한 내용-권한, 소유자, 수정일자 등-을 출력 (long)
+ls -r //파일 리스트의 출력을 거꾸로 한다 (reverse)
+ls -S //출력 형식을 바꾸어, 파일의 용량 크기 순으로 리스트를 출력 
+ls -t //출력 형식을 바꾸어, 가장 최근에 수정한 파일 순으로 리스트를 출력
+
+ls는 위와 같은 명령어를 조합해서 쓸 수 있다
+ls -h -al //K, M, G 단위의 파일크기를 사용하여(h) 사람에게 보기 좋게 모든 파일의 여러 정보를 표시
 ```
 
+🔎mv
+
 ```
-** day1-github구성.md  day2-linux명령어.md**
+mv <원본 파일명> <옮기고 싶은 디렉토리명>         //해당 디렉토리로 파일 이동
+mv <원본 파일명> <바꾸고 싶은 파일명>            //원본 파일 이름 변경
+mv <원본 디렉토리명> <옮기고 싶은 디렉토리명>     //해당 디렉토리로 디렉토리 이동
+mv <원본 디렉토리명> <바꾸고 싶은 디렉토리명>     //원본 디렉토리 이름 변경
