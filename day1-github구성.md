@@ -35,7 +35,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ``` 
-![img for wsl2 installation](https://user-images.githubusercontent.com/87057782/209558072-3b906e79-37bd-4d30-9eac-e19d8a63387d.png)
+![img for wsl2 installation](https://user-images.githubusercontent.com/87057782/209783923-64e17c3e-880e-4c7f-a33a-687a37967c7d.png)
 
 4.  윈도우를 재부팅한다
 
