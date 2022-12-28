@@ -16,6 +16,7 @@ Github Account & Repository
 WSL을 이용한 Linux 환경 구성 방법
 ---
 WSL = Windows Subsystem for Linux
+
 리눅스를 위한 윈도우의 서브시스템으로서, 윈도우에서 리눅스를 구현할 수 있게 도와주는 툴
 
 
@@ -57,6 +58,14 @@ wsl --set-version Ubuntu 2
 ```
 wsl -l -v
 ```
+
+💿코드 에디터 설치 및 터미널 설정
+---
+1. [VSCode 설치](https://code.visualstudio.com/)
+2. VSCode 확장에서 Remote - WSL을 검색하여 다운로드 해준다
+3. VSCode 터미널 설정
+VSCode의 내장 터미널을 Windows에서 Ubuntu(WSL)로 바꾸어서 설정하여 준다
+
 
  📎참고 링크 ; <https://dos-soles.tistory.com/24>
 
