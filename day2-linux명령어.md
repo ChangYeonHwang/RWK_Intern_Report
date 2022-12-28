@@ -2,6 +2,10 @@ Day 2 - Linux 명령어
 ---
 Linux command를 실습하고 각각의 기능에 대해 보고서를 제출하세요
 
++Basic Shell Commands
++Shell Script; Basic Concepts 기본 문법 및 작성 방법
++Vim 사용 방법
+
 📕Basic Shell Commands
 ---
 명령어 이름|설명
@@ -24,3 +28,44 @@ Linux command를 실습하고 각각의 기능에 대해 보고서를 제출하�
 'ps'|현재 작동하는 프로세스의 목록을 출력, 뒤에 붙는 옵션에 따라 출력되는 값이 달라진다 (Process Status)
 'man', 'tldr'|다른 명령어를 설명해주지만, 내용이 길어서 부분만 출력하는 tldr을 쓰기도 함 (tldr은 따로 설치해야 함)
 
+---
+
+💻## 명령어 설명 및 실습코드
+
+🔎cd
+
+```
+cd <Directory Name> // 가고자 하는 디렉토리로 이동
+cd. //현재 디렉토리 확인
+cd.. //상위 디렉토리로 이동
+cd / //root, 최상위 디렉토리로 이동
+cd $ 변수 이름 //변수 저장된 경로로 이동
+cd ~ //사용자 디렉토리로 이동
+cd $Home //사용자 디렉토리로 이동
+cd //사용자 디렉토리로 이동
+cd ~계정 이름 //입력한 사용자의 home 디렉토리로 이동
+cd- // 이전 경로로 이동
+```
+
+⌛cd 실습 코드 예시
+
+```
+**hcy12356@DESKTOP-A7B9I01:~$**
+**_cd RedwoodK_**
+**_cd ._**
+//RedwoodK 디렉토리로 이동 및 결과 확인
+
+**hcy12356@DESKTOP-A7B9I01:~/RedwoodK$**
+**_cd practice_**
+**_cd ._**
+//RedwoodK의 하위 디렉토리인 practice로 이동 및 결과 확인
+
+**hcy12356@DESKTOP-A7B9I01:~/RedwoodK/practice$**
+**_cd .._**
+**_cd ._**
+//상위 디렉토리인 RedwoodK로 이동 및 결과 확인
+
+**hcy12356@DESKTOP-A7B9I01:~/RedwoodK$**
+```
+
+🔎ls
