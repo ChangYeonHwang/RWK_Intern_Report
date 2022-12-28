@@ -62,11 +62,16 @@ wsl -l -v
 💿코드 에디터 설치 및 터미널 설정
 ---
 1. [VSCode 설치](https://code.visualstudio.com/)
+
 2. VSCode 확장에서 Remote - WSL을 검색하여 다운로드 해준다
+
 3. VSCode 터미널 설정
+
 VSCode의 내장 터미널을 Windows에서 Ubuntu(WSL)로 바꾸어서 설정하여 준다
+![Terminal Ubuntu](https://user-images.githubusercontent.com/87057782/209782732-ff09b69a-f280-4004-af66-ad91264e57bf.png)
 
 
- 📎참고 링크 ; <https://dos-soles.tistory.com/24>
+
+ 📎참고 링크 ; <https://dos-soles.tistory.com/24>, <https://velog.io/@njw1204/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0>
 
 2022.12.22
