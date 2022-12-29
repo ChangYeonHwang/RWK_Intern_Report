@@ -139,21 +139,21 @@ git commit -m "20221229:Git명령어연습"
 ⌛실습 코드
 
 ```
-git log
-#commit 365as615s3265sta3526n185o63v26j1655l2j32 (HEAD -> master)
-#Author: ChangYeonHwang <hcy_@naver.com>
-#Date:   Thu Jul 29 17:15:26 2022 +0900
+# git log
+# commit 365as615s3265sta3526n185o63v26j1655l2j32 (HEAD -> master)
+# Author: ChangYeonHwang <hcy_@naver.com>
+# Date:   Thu Jul 29 17:15:26 2022 +0900
 #
-#    20221229:GitVariousChanges
+#     20221229:GitVariousChanges
 
 
-#commit a85909ba91f8b56ea26b3a2764d1dd9b749cee86
-#Author: ChangYeonHwang <hcy_@naver.com>
-#commit a85909ba91f8b56ea26b3a2764d1dd9b749cee86
-#Author: ChangYeonHwang <hcy_@naver.com>
-#Date:   Thu Jul 29 17:24:05 2022 +0900
+# commit a85909ba91f8b56ea26b3a2764d1dd9b749cee86
+# Author: ChangYeonHwang <hcy_@naver.com>
+# commit a85909ba91f8b56ea26b3a2764d1dd9b749cee86
+# Author: ChangYeonHwang <hcy_@naver.com>
+# Date:   Thu Jul 29 17:24:05 2022 +0900
 #
-#    20221229:Git명령어연습
+#     20221229:Git명령어연습
 ```
 
 🔎Git reset
@@ -162,7 +162,7 @@ git log
 ⌛실습 코드
 
 ```
-git reset 625q45d --hard
+# git reset 625q45d --hard
 # HEAD is now at 625q45d 20221229:Git명령어연습
 ```
 
