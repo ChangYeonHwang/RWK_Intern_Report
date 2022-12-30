@@ -1,2 +1,4 @@
 # RWK_Intern_Report
-RedwoodK Report
+
+Author : 황창연, Chang Yeon Hwang, James
+2022.12
