@@ -7,7 +7,7 @@ java jdbc에 를 사용하여 csv file을 db테이블에 insert하고 select하�
 메이븐 기초 배우기
 ---
 
-## 📎 링크 : [메이븐 활용법](https://www.youtube.com/watch?v=VAp0n9DmeEA&list=PLq8wAnVUcTFWRRi_JWLArMND_PnZM6Yja&index=1)
+#### 📎 링크 : [메이븐 활용법 ](https://www.youtube.com/watch?v=VAp0n9DmeEA&list=PLq8wAnVUcTFWRRi_JWLArMND_PnZM6Yja&index=1)
 
 ![Maven Create Project](https://user-images.githubusercontent.com/87057782/210033575-36c3c79d-6208-4ab6-a385-d9dba833399a.png)
 
