@@ -79,6 +79,7 @@ wsl -l -v
 3. VS Code 터미널 설정
 
 VS Code의 내장 터미널을 Windows에서 Ubuntu(WSL)로 바꾸어서 설정하여 준다
+
 ![Terminal Ubuntu](https://user-images.githubusercontent.com/87057782/209782732-ff09b69a-f280-4004-af66-ad91264e57bf.png)
 
 
