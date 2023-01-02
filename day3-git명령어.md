@@ -66,15 +66,15 @@ git remote add origin https://github.com/ChangYeonHwang/RWK_Intern_Report.git
 #  (use "git add <file>..." to include in what will be committed)
 #        hello.txt
 #        sample/
-#
+
 # nothing added to commit but untracked files present (use "git add" #to track)
 
 # git add .
 # git status
 # On branch master
-#
+
 # No commits yet
-#
+
 # Changes to be committed:
 #  (use "git rm --cached <file>..." to unstage)
 #        new file:   orange
@@ -143,7 +143,7 @@ git remote add origin https://github.com/ChangYeonHwang/RWK_Intern_Report.git
 # commit 365as615s3265sta3526n185o63v26j1655l2j32 (HEAD -> master)
 # Author: ChangYeonHwang <hcy_@naver.com>
 # Date:   Thu Jul 29 17:15:26 2022 +0900
-#
+
 #     20221229:GitVariousChanges
 
 
@@ -152,7 +152,7 @@ git remote add origin https://github.com/ChangYeonHwang/RWK_Intern_Report.git
 # commit a85909ba91f8b56ea26b3a2764d1dd9b749cee86
 # Author: ChangYeonHwang <hcy_@naver.com>
 # Date:   Thu Jul 29 17:24:05 2022 +0900
-#
+
 #     20221229:Git명령어연습
 ```
 
