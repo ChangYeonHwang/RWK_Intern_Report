@@ -12,6 +12,7 @@ Java 언어의 기본문법에 대해 보고서를 제출하세요
 ---
 
 🔖KEYWORDS
+
 🔖OOP - 객체 지향 프로그래밍
 
 
@@ -142,7 +143,7 @@ Operators 연산자
 ```
 # public class Sample {
 #     public void mustRun() {
-#         System.out.println("happy now?");
+#         System.out.println("finally, it worked");
 #     }
 
 #     public static void main(String[] args) {
@@ -164,7 +165,7 @@ Operators 연산자
 //이때 finally를 이용하여 catch 밑에 함수를 작성해주면
 #         } finally {
 #             sample.shouldBeRun();  
-// 예외에 상관없이 무조건 수행되어, "happy now?"라는 문장이 자동으로 출력된다
+// 예외에 상관없이 무조건 수행되어, "finally, it worked"라는 문장이 자동으로 출력된다
 ```
 
 ## 📎참고링크 : [이외 예외 처리 참고](https://wikidocs.net/229)
