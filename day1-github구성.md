@@ -5,7 +5,7 @@ github에 계정을 따고, 과제제출용 repository를 생성하세요
 
 wsl을 이용한 linux 환경구성 방법에 대해 보고서를 제출하시요
 
-Github Account & Repository
+📫Github Account & Repository
 ---
 
 📧Github_Account_Email ; <hcy_@naver.com>
