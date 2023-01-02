@@ -20,7 +20,7 @@ Keywords
 ---
 미리 예약되어 있는 기능을 실행시켜주는 것으로, 자바라는 언어를 하기 위해 필요한 기본적인 단어
 
-링크 : [All 50 Java Keywords](https://github.com/Suryakant-Bharti/Important-Java-Concepts/tree/master/_moreReadMe/keywords)
+📎링크 참조: [All 50 Java Keywords](https://github.com/Suryakant-Bharti/Important-Java-Concepts/tree/master/_moreReadMe/keywords)
 
 자바의 키워드는 총 50개이고, 그 중 2개는 더 이상 쓰이지 않아 실질적으론 48개의 키워드가 있다
 
