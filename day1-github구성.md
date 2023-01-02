@@ -54,9 +54,10 @@ wsl --set-version Ubuntu 2
 
 //wsl 설치 중 문제가 생긴다면, Linux 커널 패키지가 업데이트가 안 되어있어 그럴 확률이 높다
   밑의 링크를 통해 Linux 커널 업데이트 패키지를 진행한다
-  
-[패키지 업데이트](https://learn.microsoft.com/ko-kr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
 ```
+
+[패키지 업데이트](https://learn.microsoft.com/ko-kr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
+
 
 8. 업그레이드가 잘 되었는지 확인을 위한 아래의 명령어를 입력하여 현재 버젼을 확인해 볼 수 있다
 
