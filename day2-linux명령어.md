@@ -374,7 +374,7 @@ fi
 ⌛실습 코드
 
 ```
-function func(){
+# function func(){
         a=10
         b=5
 
