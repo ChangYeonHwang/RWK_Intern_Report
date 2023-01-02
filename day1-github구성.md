@@ -83,6 +83,6 @@ VS Code의 내장 터미널을 Windows에서 Ubuntu(WSL)로 바꾸어서 설정�
 
 
 
- 📎참고 링크 ; [참고 링크 1](https://dos-soles.tistory.com/24), [참고 링크 2](https://velog.io/@njw1204/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0)
+ 📎참고 링크 ; [WSL 2](https://dos-soles.tistory.com/24), [VS Code](https://velog.io/@njw1204/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0)
 
 2022.12.22
