@@ -89,8 +89,8 @@ git remote add origin https://github.com/ChangYeonHwang/RWK_Intern_Report.git
 ⌛실습 코드
 
 ```
-git commit -m "20221229:Git명령어연습"
-#[master (root-commit) 625q45d] 20221229:Git명령어연습
+# git commit -m "20221229:Git명령어연습"
+# [master (root-commit) 625q45d] 20221229:Git명령어연습
 # 2 files changed, 2 insertions(+)
 # create mode 100644 orange
 # create mode 100644 red
