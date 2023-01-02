@@ -69,7 +69,7 @@ wsl -l -v
 ---
 리눅스를 다룰 코드 에디터를 설치하고, 관련 설정을 해준다
 
-코드 에디터에는 VS Code, Visual Studio, Notepad ++ 등 여럿 있지만 그 중에서 VS Code를 예시로 들었다
+코드 에디터에는 VS Code, Visual Studio, Notepad ++ 등 여럿 있지만 그 중에서 VS Code를 예시로 활용
 
 
 1. [VS Code 설치](https://code.visualstudio.com/)
