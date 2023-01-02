@@ -52,7 +52,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 wsl --set-default-version 2
 wsl --set-version Ubuntu 2
 
-//wsl 설치 중 문제가 생긴다면, Linux 커널 패키지가 업데이트가 안 되어있어 그럴 확률이 높다
+//wsl 설치 중 문제가 생긴다면, Linux 커널 패키지가 구버젼일 확률이 높다
   밑의 링크를 통해 Linux 커널 업데이트 패키지를 진행한다
 ```
 
