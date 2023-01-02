@@ -214,7 +214,7 @@ Operators 연산자
 # }
 ```
 
-⚠️Overriding, Overloading
+## ⚠️Overriding, Overloading
 
 ⚙️Overriding : 하위 클래스에서 작업 중 상위 클래스를 재정의 하는 것
 
