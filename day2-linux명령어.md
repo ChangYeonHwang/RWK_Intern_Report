@@ -52,18 +52,18 @@ cd-  // 이전 경로로 이동
 
 ```
 # hcy12356@DESKTOP-A7B9I01:~$
-cd RedwoodK
-cd .
+# cd RedwoodK
+# cd .
 //RedwoodK 디렉토리로 이동 및 결과 확인
 
 # hcy12356@DESKTOP-A7B9I01:~/RedwoodK$
-cd practice
-cd .
+# cd practice
+# cd .
 //RedwoodK의 하위 디렉토리인 practice로 이동 및 결과 확인
 
 # hcy12356@DESKTOP-A7B9I01:~/RedwoodK/practice$
-cd ..
-cd .
+# cd ..
+# cd .
 //상위 디렉토리인 RedwoodK로 이동 및 결과 확인
 
 # hcy12356@DESKTOP-A7B9I01:~/RedwoodK$
@@ -144,7 +144,7 @@ cat <파일명1> <파일명2> ... >> <기존 파일명>  //">" 앞에 있는 파
 ```
 //practice 폴더에 cat_test 파일을 임의로 생성한 후 진행
 # cat mv_test.txt cat_test.txt
-# mv testcat test.txt
+# mv_testcat_test.txt
 ```
 
 🔎less 명령어 사용법
@@ -307,7 +307,9 @@ ps -ejH  //프로세스를 트리형식으로 출력
 
 
 ▶️배열
-쉘 스크립트에서 배열은 1차원 배열만 지원하며 중괄호를 사용. 배열 원소를 소괄호 안 공백으로 구분하기 때문이며 배열 안 원소는 문자열 정수 상관 없이 사용 가능
+쉘 스크립트에서 배열은 1차원 배열만 지원하며 중괄호를 사용, 배열 원소를 소괄호 안 공백으로 구분하기 때문
+
+배열 안 원소는 문자열 정수 상관 없이 사용 가능
 
 ```
 //지정해둔 모든 변수를 삭제한 후 진행
@@ -529,3 +531,5 @@ $ vim/vi 만들고자하는 파일 이름.파일의 확장자
 :wq = 저장 & 종료
 :wq! = 저장 & 강제 종료
 ```
+
+📎 참고링크 : [기본 명령어](https://velog.io/@devmin/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%89%98-%EA%B8%B0%EB%B3%B8-%EB%AA%85%EB%A0%B9%EC%96%B4Basic-Shell-Commands), [쉘 스크립트](https://reakwon.tistory.com/136), [VIM 기초](https://zeddios.tistory.com/122)
