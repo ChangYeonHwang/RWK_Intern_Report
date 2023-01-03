@@ -123,10 +123,13 @@ cp <원본 디렉토리> -r <복사해서 만들고 싶은 디렉토리명> //�
 
 ```
 # hcy12356@DESKTOP-A7B9I01:~/RedwoodK/image$ cp mv_test.txt practice
+//practice 폴더로 mv_test.txt 파일을 카피해보았다
+
 # cd practice
 # hcy12356@DESKTOP-A7B9I01:~/RedwoodK/practice$
 # ls
 # mv_test.txt
+//practice 폴더로 이동, 리스트 명령어를 통해 폴더에 mv_test.txt 파일이 복사 되었음을 확인하였다
 ```
 
 🔎cat 명령어 사용법
@@ -143,6 +146,7 @@ cat <파일명1> <파일명2> ... >> <기존 파일명>  //">" 앞에 있는 파
 
 ```
 //practice 폴더에 cat_test 파일을 임의로 생성한 후 진행
+
 # cat mv_test.txt cat_test.txt
 # mv_testcat_test.txt
 ```
@@ -211,6 +215,7 @@ grep <패턴> * -r  //현재 디렉토리 및 하위 디렉토리에서 특정 �
 
 ```
 // practice 폴더에 All I want for Christmas is you의 가사를 따온 txt 파일을 생성, 이후 명령어 실시
+
 # grep 'Christmas' lyrics_grep_test.txt
 # I don't want a lot for Christmas
 # I don't care about the presents underneath the Christmas tree
@@ -264,6 +269,7 @@ ps -ejH  //프로세스를 트리형식으로 출력
 ```
 
 ▶️변수
+
 변수명=값 으로 변수를 선언하고 사용할때는 앞에 $를 붙여준다; 중괄호를 이용하는 방법도 있는데, ${변수}, {변수}처럼 중괄호로 묶어서 사용
 
 ⌛실습 코드
@@ -277,6 +283,7 @@ ps -ejH  //프로세스를 트리형식으로 출력
 ```
 
 ▶️매개변수
+
 프로그램에서 실행할 때 인자를 주는 것처럼 쉘 스크립트도 동일 방식 사용 가능
 
 ```
@@ -292,6 +299,7 @@ ps -ejH  //프로세스를 트리형식으로 출력
 ```
 
 ▶️예약변수
+
 이미 정의된 변수로서, 사용자가 쉘 스크립트에서 따로 지정이 불가능한 변수들
 
 변수 이름|설명
@@ -307,6 +315,7 @@ ps -ejH  //프로세스를 트리형식으로 출력
 
 
 ▶️배열
+
 쉘 스크립트에서 배열은 1차원 배열만 지원하며 중괄호를 사용, 배열 원소를 소괄호 안 공백으로 구분하기 때문
 
 배열 안 원소는 문자열 정수 상관 없이 사용 가능
@@ -344,13 +353,14 @@ ps -ejH  //프로세스를 트리형식으로 출력
 ```
 
 ▶️함수
+
 함수가 호출되기 전 미리 함수가 정의되어 있어야 하며, 괄호를 쓰지 않아야 한다
 
 ```
-#!/bin/bash
- function test(){
-     echo "mic check 1, 2, 3"
- }
+# #!/bin/bash
+#  function test(){
+#      echo "mic check 1, 2, 3"
+#  }
  
 # 함수 호출
 # function test
@@ -359,10 +369,12 @@ ps -ejH  //프로세스를 트리형식으로 출력
 # 함수 호출
 # test
 # mic check 1, 2, 3
+
 //함수를 호출할 때 function을 꼭 적지 않아도 위처럼 호출이 가능하다
 ```
 
 ▶️비교문
+
 쉘 스크립트에서의 비교문은 형식이 정해져 있고, 이는 아래와 같다
 
 ```
@@ -375,34 +387,33 @@ fi
 
 ```
 # function func(){
-        a=10
-        b=5
+#        a=10
+#        b=5
 
-        if [ ${a} -eq ${b} ]; then
-                echo "a와 b는 같다."
-        fi
+#        if [ ${a} -eq ${b} ]; then
+#                echo "a와 b는 같다."
+#        fi
 
-        if [ ${a} -ne ${b} ]; then
-                echo "a와 b는 같지 않다"
-        fi
+#        if [ ${a} -ne ${b} ]; then
+#                echo "a와 b는 같지 않다"
+#        fi
 
-        if [ ${a} -gt ${b} ]; then
+#        if [ ${a} -gt ${b} ]; then
                 echo "a가 b보다 크다"
-        fi
+#        fi
 
-        if [ ${a} -ge ${b} ]; then
+#        if [ ${a} -ge ${b} ]; then
                 echo "a가 b보다 크거나 같다"
-        fi
+#        fi
 
-        if [ ${a} -lt ${b} ]; then
-                echo "a가 b보다 작다"
-        fi
+#        if [ ${a} -lt ${b} ]; then
+#                echo "a가 b보다 작다"
+#        fi
 
-        if [ ${a} -le ${b} ]; then
-                echo "a가 b보다 작거나 같다"
-        fi
-
-}
+#        if [ ${a} -le ${b} ]; then
+#                echo "a가 b보다 작거나 같다"
+#        fi
+# }
 
 # 출력 결과
 # a와 b는 같지 않다
@@ -411,6 +422,7 @@ fi
 ```
 
 ▶️파일 관련 조건
+
 조건|설명
 ---|---
 `if [-d ${변수}]; then`|${변수}의 디렉토리가 존재하면 참이 성립합니다
@@ -440,18 +452,19 @@ fi
 # #!/bin/bash
 
 # case ${1} in
-        "linux") echo "리눅스" ;;
-        "unix") echo "유닉스" ;;
-        "windows") echo "윈도우즈" ;;
-        "MacOS") echo "맥OS" ;;
-        *) echo "머야" ;;
-esac
+#         "linux") echo "리눅스" ;;
+#         "unix") echo "유닉스" ;;
+#         "windows") echo "윈도우즈" ;;
+#         "MacOS") echo "맥OS" ;;
+#         *) echo "머야" ;;
+# esac
 
 # 출력 결과 : 머야
 ```
 
 ▶️반복문
-+`break` 키워드의 사용을 통해 반복문을 멈출 수 있고, 위의 예제처럼 세미콜론을 두 개 (;;) 사용하는 것도 가능
+
+`break` 키워드의 사용을 통해 반복문을 멈출 수 있고, 위의 예제처럼 세미콜론을 두 개 (;;) 사용하는 것도 가능
 
 ⌛실습 코드
 
@@ -459,12 +472,12 @@ esac
 #!/bin/bash
 
 # function tt2(){
-        echo "Times Table 2"
-        for i in {2..18..2}
-        do
-                echo "${i}"
-        done
-}
+#         echo "Times Table 2"
+#         for i in {2..18..2}
+#         do
+#                 echo "${i}"
+#         done
+# }
 
 # tt2
 //함수 호출
@@ -482,7 +495,9 @@ esac
 ```
 
 ▶️명령어의 종료 코드
+
 만약 명령어가 실패할 경우 동작을 다르게 할 것이라면 명령어의 종료 코드를 얻어오면 된다
+
 + 명령어의 종료 코드는 "$?" <- 가장 최근 실행한 명령어의 종료 코드가 있다
 + 정상적인 종료라면 0이 반환되는데, 0이 아닌 값으로 반환되면 오류이다
 
