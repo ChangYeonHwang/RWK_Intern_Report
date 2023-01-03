@@ -217,9 +217,9 @@ grep <패턴> * -r  : 현재 디렉토리 및 하위 디렉토리에서 특정 �
 // practice 폴더에 All I want for Christmas is you의 가사를 따온 txt 파일을 생성, 이후 명령어 실시
 
 # grep 'Christmas' lyrics_grep_test.txt
-# I don't want a lot for Christmas
 
 //결과값
+# I don't want a lot for Christmas
 # I don't care about the presents underneath the Christmas tree
 # All I want for Christmas is you
 # I don't want a lot for Christmas
