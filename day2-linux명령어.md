@@ -192,7 +192,7 @@ rm -rf <파일명/디렉토리명>  : 해당 파일/디렉토리 강제 삭제(�
 # rm mv_test.txt
 # hcy12356@DESKTOP-A7B9I01:~/RedwoodK/practice$ ls
 # cat_test.txt mv_testcat_test.txt
-//mv test 파일과 cat test, mv testcat test 파일 세 개가 있었지만 mv test.txt 파일이 사라져 나오지 않는다
+//mv_test 파일과 cat_test, mv_testcat_test 파일 세 개가 있었지만 mv_test.txt 파일이 사라져 나오지 않는다
 ```
 
 🔎chown 명령어 사용법
