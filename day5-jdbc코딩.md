@@ -170,4 +170,94 @@ CSV file 읽기
 # }
 ```
 
-## 📎참고 링크 [openCSV](https://hasiki.tistory.com/23), [csv 예제](https://spatiumwdev.tistory.com/36)
+CSV 파일 Insert to Mysql
+---
+
+```
+# package net.codejava;
+ 
+# import java.io.*;
+# import java.sql.*;
+ 
+# public class SimpleCsv2DbInserter {
+ 
+#     public static void main(String[] args) {
+#         String jdbcURL = "jdbc:mysql://localhost:3306/DB이름";
+#         String username = "jameshwang";
+#         String password = "jameshwang";
+ 
+#         String csvFilePath = "csv_for_RWK_intern.csv";
+ 
+#         int batchSize = 20;
+ 
+#         Connection connection = null;
+ 
+#         try {
+ 
+#             connection = DriverManager.getConnection(jdbcURL, username, password);
+#             connection.setAutoCommit(false);
+ 
+#             String sql = "INSERT INTO review (course_name, student_name, timestamp, rating, comment) VALUES (?, ?, ?, ?, ?)";
+#             PreparedStatement statement = connection.prepareStatement(sql);
+ 
+#             BufferedReader lineReader = new BufferedReader(new FileReader(csvFilePath));
+#             String lineText = null;
+ 
+#             int count = 0;
+ 
+#             lineReader.readLine(); // skip header line
+ 
+#             while ((lineText = lineReader.readLine()) != null) {
+#                 String[] data = lineText.split(",");
+#                 String courseName = data[0];
+#                 String studentName = data[1];
+#                 String timestamp = data[2];
+#                 String rating = data[3];
+#                 String comment = data.length == 5 ? data[4] : "";
+ 
+#                 statement.setString(1, courseName);
+#                 statement.setString(2, studentName);
+ 
+#                 Timestamp sqlTimestamp = Timestamp.valueOf(timestamp);
+#                 statement.setTimestamp(3, sqlTimestamp);
+ 
+#                 Float fRating = Float.parseFloat(rating);
+#                 statement.setFloat(4, fRating);
+ 
+#                 statement.setString(5, comment);
+ 
+#                 statement.addBatch();
+ 
+#                 if (count % batchSize == 0) {
+#                     statement.executeBatch();
+#                 }
+#             }
+ 
+#             lineReader.close();
+ 
+#             // execute the remaining queries
+#             statement.executeBatch();
+ 
+#             connection.commit();
+#             connection.close();
+ 
+#         } catch (IOException ex) {
+#             System.err.println(ex);
+#         } catch (SQLException ex) {
+#             ex.printStackTrace();
+ 
+#             try {
+#                 connection.rollback();
+#             } catch (SQLException e) {
+#                 e.printStackTrace();
+#             }
+#         }
+ 
+#     }
+# }
+```
+
+CSV 파일 Insert to Mysql
+
+
+## 📎참고 링크 [openCSV](https://hasiki.tistory.com/23), [csv 예제](https://spatiumwdev.tistory.com/36), [csv inseert](https://www.codejava.net/coding/java-code-example-to-insert-data-from-csv-to-database)
