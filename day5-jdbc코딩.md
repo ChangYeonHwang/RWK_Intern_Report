@@ -15,6 +15,44 @@ java jdbc에 를 사용하여 csv file을 db테이블에 insert하고 select하�
 
 이에 따라 기초적인 메이븐 프로젝트를 만들어보고 pom.xml 파일을 업로드하였다
 
+![mysql jar](https://user-images.githubusercontent.com/87057782/210496621-0d42d11a-5973-4ab8-b1c5-1aae172aeea8.png)
+
+mysql connector를 이용해 eclipse에서 연결을 하였다
+
+Mysql 연결
+---
+
+```
+# import java.sql.Connection;
+# import java.sql.DriverManager;
+# import java.sql.SQLException;
+
+# public class connectionTest {
+	
+#     public static void main(String[] args) {
+		
+# 		  try {
+#			  Class.forName("com.mysql.cj.jdbc.Driver");
+			
+#			 Connection conn =
+#			 DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/DB이름", "jameshwang", "jameshwang"); 
+	
+#			 System.out.println("mysql db 연결 성공");
+			
+#			 conn.close();
+#			 System.out.println("mysql 연결 해제");
+#		 }
+#		 catch(ClassNotFoundException error) {
+#			 System.out.println("mysql driver 미설치 또는 드라이버 이름 오류");
+#		 }
+#		 catch(SQLException error) {
+#			 System.out.println("DB 접속 오류");
+#		 }
+#	 }
+
+# }
+```
+
 CSV file 읽기
 ---
 
